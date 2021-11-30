@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Fredsoneblockworld</title>
+        <link href="logo/logo.png" rel="shortcut icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <video id="vid-bg" src="videos/fredsoneblockworld.mp4" class="vid-bg" autoplay loop muted></video>
+            <div class="nav-area">
+                <div class="logo">Oneblock</div>
+                <ul class="menu-area">
+                    <li><a class="menu-links" href="#">Home</a></li>
+                    <li><a class="menu-links" href="about/index.html">About</a></li>
+                    <li><a class="menu-links" href="contact/index.html">Contact</a></li>
+                    <li><a class="menu-links" href="pictures/index.html">Pictures</a></li>
+                    <li><a class="menu-links" href="devtest/index.html">DevTest</a></li>
+                    <li><a class="side-menu" href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
+            
+            <div id="banner-text" class="banner-text">
+                <h2>Oneblockworld</h2>
+                <p>We have the best Minetest Server of the world.</p>
+                <a href="#" class="btn">Join us</a>
+            </div>
+            <!--<div class="server-btn"><i class="fas fa-server"></i></div>-->
+            <div onclick="openDiscord()" class="discord-btn"><i class="fab fa-discord"></i></div>
+            <p onclick="closeDiscord()" id="discord-cross" class="discord-cross">&#10006;</p>
+            <iframe class="discord-iframe" id="discord-iframe" src="https://discordapp.com/widget?id=908356855280046090&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </header>
+    </body>
+</html>
