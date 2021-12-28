@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  background-image: url(logo/OneblockBackground.png);
+}
+
+header {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.vid-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  filter: brightness(40%) blur(10px);
+  transition: .2s ease-in-out;
+}
+
+.nav-area {
+  background: rgba(0, 0, 0, 0.7);
+  height: 60px;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 50px;
+  height: 60px;
+  float: left;
+  color: #fff;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.menu-area {
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu-area li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.menu-area li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+}
+
+.menu-area li a:hover {
+  color: rgb(26, 136, 162);
+}
+
+.side-menu {
+  position: relative;
+  display: none;
+  font-size: 20px;
+  bottom: 10px;
+}
+
+.playeronline {
+  font-weight: light;
+  color: white;
+  margin-bottom: -10px;
+  padding-bottom: -10px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .2s ease-in-out;
+}
+
+.banner-text h2 {
+  color: #fff;
+  font-size: 55px;
+  margin: 0;
+}
+
+.contentbanner {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.discord-btn {
+  bottom: 15px;
+  right: 20px;
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 34px;
+  text-align: center;
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  display:box;
+  box-pack:center;
+  box-align:center;
+  cursor: pointer;
+}
+
+.yt-btn {
+  bottom: 15px;
+  right: 70px;
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 34px;
+  text-align: center;
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  display:box;
+  box-pack:center;
+  box-align:center;
+  cursor: pointer;
+}
+
+.social-btn:hover {
+  opacity: 0.8;
+}
+
+/*.server-btn {
+  bottom: 22px;
+  right: 80px;
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 34px;
+  text-align: center;
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  display:-ms-flexbox;
+  -ms-flex-pack:center;
+  -ms-flex-align:center;
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  display:box;
+  box-pack:center;
+  box-align:center;
+  cursor: pointer;
+}
+
+.server-btn:hover {
+  color: #b5b5b5;
+}*/
+
+.discord-cross {
+  position: absolute;
+  filter: none;
+  color: white;
+  top: 80px;
+  right: 80px;
+  font-size: 40px;
+  display: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.discord-iframe {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 5%;
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+  }
+
+  .btn:hover {
+    color: rgba(0, 0, 0, 0.7);
+    background: #fff;
+  }
+
+  ::-moz-selection {
+    color: #fff;
+    background: rgb(26, 136, 162);
+  }
+  
+  ::selection {
+    color: #fff;
+    background: rgb(26, 136, 162);
+  }
+
+  @media screen and (max-width: 840px) {
+    .side-menu {
+      display: block;
+    }
+
+    .menu-links {
+      display: none;
+    }
+
+    .banner-text h2 {
+      font-size: 50px;
+    }
+
+    .banner-text p {
+      font-size: 15px;
+    }
+  }
