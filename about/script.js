@@ -7,7 +7,7 @@ window.onload = function () {
         document.getElementById("download-btn").innerHTML = '<i class="fab fa-apple"></i>' + 'Download for MacOS';
     }
 
-    if (navigator.appVersion.indexOf("Mac") != -1) {
+    if (navigator.appVersion.indexOf("Linux") != -1) {
         document.getElementById("download-btn").innerHTML = '<i class="fab fa-linux"></i>' + 'Download for Linux';
     }
 
