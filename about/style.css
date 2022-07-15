@@ -92,6 +92,10 @@ i {
   font-weight: bold;
 }
 
+.owner {
+  color: rgb(255,0,0)
+  }
+
 .btn {
   display: inline-block;
   margin-top: 5%;
